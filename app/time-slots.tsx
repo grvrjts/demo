@@ -21,7 +21,7 @@ export default function TimeSlots() {
     {
       id: '2',
       date: '17-Sep-2026', // Fixed the year issue
-      cubicle: 'NOSTP 02 16 A 051',
+      cubicle: 'NOSTP 02 16 A 085',
       location: 'Noida, NOSTP, BHUT01, FLOOR-16, A',
       time: '08:00AM - 02:00PM', 
     },
