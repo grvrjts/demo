@@ -24,8 +24,15 @@ export default function TimeSlots() {
       cubicle: 'NOSTP 02 16 A 051',
       location: 'Noida, NOSTP, BHUT01, FLOOR-16, A',
       time: '08:00AM - 02:00PM', 
-    }
+    },
 
+   {
+      id: '3',
+      date: '18-Sep-2026', // Fixed the year issue
+      cubicle: 'NOSTP 02 16 A 052',
+      location: 'Noida, NOSTP, BHUT01, FLOOR-16, A',
+      time: '08:00AM - 02:00PM', 
+    }
   ];
 
   const DateCard = ({ day, date }: { day: string, date: string }) => {
